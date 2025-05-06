@@ -31,3 +31,7 @@ const page2 = {
   accounts: ['Alex'],
   status: 'close',
 }
+
+
+console.log(page1.title);
+console.log(page2.likes);

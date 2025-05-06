@@ -13,3 +13,4 @@ showMessage('Привіт!');
 
 const sum = calc(5, 10); 
 console.log('Сума:', sum);
+customError();

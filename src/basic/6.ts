@@ -28,5 +28,8 @@ const poly = {
     email: 'john@example.com'
 };
 
+console.log(mango.name);
+console.log(poly.email);
+
 
 export{}
