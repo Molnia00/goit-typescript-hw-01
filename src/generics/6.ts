@@ -1,20 +1,15 @@
-type Errors = {
-  email?: string[];
-  firstName?: string[];
-  lastName?: string[];
-  phone?: string[];
+export enum UserRole {
+  admin = 'admin',
+  editor = 'editor',
+  guest = 'guest',
+}
+
+const RoleDescription: Record<UserRole, string> = {
+  [UserRole.admin]: 'Admin User',
+  [UserRole.editor]: 'Editor User',
+  [UserRole.guest]: 'Guest User',
 };
 
-type Form = {
-  email: string | null;
-  firstName: string | null;
-  lastName: string | null;
-  phone: string | null;
-  errors: Errors;
-};
-
-type Params = Omit<Form, 'errors'>;
-
-  
+console.log(RoleDescription[UserRole.admin]);
 
 export {};

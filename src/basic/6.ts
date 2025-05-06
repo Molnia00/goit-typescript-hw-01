@@ -1,35 +1,32 @@
-
-interface Address{
-    city: string;
-    country: string;
+interface Address {
+  city: string;
+  country: string;
 }
 
-interface User{
-    name: string;
-    age: number;
-    email: string;
-    address?: Address;
-
+interface User {
+  name: string;
+  age: number;
+  email: string;
+  address?: Address;
 }
 
-const mango = {
-    name: 'Mango',
-    age: 30,
-    email: 'john@example.com',
-    address: {
-        city: 'New York',
-        country: 'USA'
-    }
+const mango: User = {
+  name: 'Mango',
+  age: 30,
+  email: 'john@example.com',
+  address: {
+    city: 'New York',
+    country: 'USA'
+  }
 };
 
-const poly = {
-    name: 'Mango',
-    age: 30,
-    email: 'john@example.com'
+const poly: User = {
+  name: 'Poly',
+  age: 25,
+  email: 'poly@example.com'
 };
 
 console.log(mango.name);
 console.log(poly.email);
 
-
-export{}
+export {};

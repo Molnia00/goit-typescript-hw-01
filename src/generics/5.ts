@@ -10,4 +10,6 @@ const RoleDescription: Record<UserRole, string> = {
   [UserRole.guest]: 'Guest User',
 };
 
+console.log(RoleDescription[UserRole.admin]);
+
 export {};
