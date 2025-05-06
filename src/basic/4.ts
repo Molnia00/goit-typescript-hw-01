@@ -9,3 +9,7 @@ function calc(num1: number, num2: number) {
 function customError(): never {
   throw new Error('Error');
 }
+showMessage('Привіт!'); 
+
+const sum = calc(5, 10); 
+console.log('Сума:', sum);
