@@ -1,6 +1,6 @@
-let smth: string | number; 
-smth = 'Kate'
-smth = 890;
-//smth = true;
+let smth: 'Kate' | 890;
+smth = 'Kate';
+console.log(smth); 
 
-console.log(smth)
+smth = 890;
+console.log(smth); 
