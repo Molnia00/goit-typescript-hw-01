@@ -1,6 +1,8 @@
-let smth: 'Kate' | 890;
-smth = 'Kate';
-console.log(smth); 
 
-smth = 890;
-console.log(smth); 
+let mixedItem: string | number;
+mixedItem = "Table";
+mixedItem = 21;
+
+let stringItem: "enable" | "disable";
+stringItem = "enable";
+stringItem = "disable";
